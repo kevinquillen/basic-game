@@ -28,7 +28,7 @@ int main() {
         current_tries++;
     }
 
-    if (current_tries == 3) {
+    if (current_tries == max_tries) {
         cout << "Game over!";
     }
 
